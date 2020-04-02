@@ -70,7 +70,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
-  displayName: 'Install ReportGenerator'
+  displayName: 'Install ReportGenerator eba'
   inputs:
     command: custom
     custom: tool
